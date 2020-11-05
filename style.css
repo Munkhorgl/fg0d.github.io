@@ -1,0 +1,123 @@
+h1{
+  font-size: 40px;
+  font-weight:bold;
+}
+
+h2 {
+  
+}
+
+.btn {
+  background-color: black;
+  border-color: #20c20e;
+}
+
+.btn:hover {
+  background-color: #20c20e;
+  border-color: black;
+  color: black;
+}
+
+.btn-select{
+  background-color: #20c20e;
+  border-color: black;
+  color: black;
+  font-family: 'Share Tech Mono', monospace;
+  
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: black;
+  padding-bottom: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+.hacker-text {
+  color: #20c20e;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: bold;
+}
+
+table,
+td {
+  border: 1px solid #20c20e;
+  text-align: center;
+  margin: 0 auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;  
+}
+.conditions-container{
+  padding-bottom:20px;
+  padding-top:0px;
+}
+
+#demo {
+  font-weight: bold;
+}
+
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 50px;
+  color: #20c20e;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #20c20e;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #20c20e;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #20c20e;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #20c20e;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #20c20e;
+  }
+}
+
+
+.blinking-dot {
+  font-weight: bold;
+  font-size: 20px;
+  color: #20c20e;
+  animation: 1s blink step-end infinite;
+}
